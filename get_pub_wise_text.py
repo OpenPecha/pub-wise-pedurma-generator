@@ -41,6 +41,6 @@ def serialize_pub_wise_text(open_edition_opf_path, output_dir):
 
 
 if __name__ == "__main__":
-    open_edition_opf_path = Path('./data/opfs/O278336C8')
+    open_edition_opf_path = Path('./data/opfs/O184D1BB0')
     output_dir = Path('./data/D3871')
     serialize_pub_wise_text(open_edition_opf_path, output_dir)
